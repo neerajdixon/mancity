@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/calc','helloControler@index');
+Route::post('/calc','helloControler@add');
